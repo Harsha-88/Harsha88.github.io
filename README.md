@@ -14,13 +14,9 @@ It is built with HTML, CSS, and JavaScript.
 
 <h1>Features:</h1>
       <h2>Home: Introduce myself and briefly overview my skills and interests.</h2>
-<br>
       <h2>About me: Details of my professional background, and education.</h2>
-<br>
       <h2>Projects: Showcases the projects I have worked on.</h2>
-<br>
       <h2>Skills: List the programming languages and technologies.</h2>
-<br>
       <h2>Contact: Provide various ways to get in touch with me, such as through email and LinkedIn.</h2>
 <br>
 

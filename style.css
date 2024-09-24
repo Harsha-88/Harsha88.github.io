@@ -1,0 +1,180 @@
+*{
+    padding:0;
+    margin:0;
+  }
+  
+  nav ul {
+      /* list-style: none; */
+      display: flex;
+      justify-content: flex-end; /* Aligns items to the right */
+      margin:0;
+      padding:0px;
+      background-color: #0f0d0d; /* Background color for the nav bar */
+      height:100px;
+      font-weight:bold;
+      font-size:28px;
+  }
+  
+  nav ul li {
+      margin: 0 15px; /* Adds space between the items */
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      color: white; /* Text color */
+      padding: 14px 20px; /* Padding for clickable area */
+      display: block;
+  }
+  
+  nav ul li a:hover {
+      background-color: #575757; /* Hover effect */
+      border-radius: 4px; /* Rounded corners on hover */
+  }
+  
+  #home {
+      padding: 20px;
+      background-color: #f4f4f4; /* Light background color */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      text-align: left; /* Align text to the left */
+  }
+  
+  #home h1 {
+      font-size: 2.5em; /* Larger font size for the heading */
+      color: #333; /* Darker color for the heading */
+      margin-bottom: 10px;
+  }
+  
+  #home p {
+      font-size: 1.2em; /* Slightly larger font size for the paragraph */
+      color: #666; /* Gray color for the paragraph */
+      line-height: 1.6; /* Better line spacing */
+  }
+  
+  
+  #about-me {
+      padding: 20px;
+      background-color: #f9f9f9; /* Light background color */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      text-align: left; /* Align text to the left */
+  }
+  
+  #about-me h2 {
+      font-size: 2em; /* Font size for the heading */
+      color: #333; /* Darker color for the heading */
+      margin-bottom: 10px;
+  }
+  
+  #about-me p {
+      font-size: 1.2em; /* Font size for the paragraphs */
+      color: #666; /* Gray color for the text */
+      line-height: 1.6; /* Better line spacing */
+      margin-bottom: 10px;
+  }
+  
+  
+  /* skills */
+  #skills {
+      padding: 20px;
+      background-color: #f9f9f9; /* Light background color */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      text-align: left; /* Align text to the left */
+  }
+  
+  #skills h2 {
+      font-size: 2em; /* Font size for the heading */
+      color: #333; /* Darker color for the heading */
+      margin-bottom: 20px;
+  }
+  
+  .skill-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px; /* Space between skill items */
+  }
+  
+  .skill {
+      margin-bottom: 10px;
+  }
+  
+  .skill h3 {
+      font-size: 1.2em; /* Font size for skill titles */
+      color: #666; /* Gray color for skill titles */
+      margin-bottom: 5px;
+  }
+  
+  .skill-bar {
+      background-color: #ddd; /* Background color for the skill bar */
+      border-radius: 8px; /* Rounded corners for the skill bar */
+      overflow: hidden;
+  }
+  
+  .skill-level {
+      height: 20px; /* Height of the skill level bar */
+      background-color: #4caf50; /* Color of the skill level bar */
+      border-radius: 8px 0 0 8px; /* Rounded corners for the skill level bar */
+  }
+  
+  
+  
+  /* projects */
+  #projects {
+      padding: 20px;
+      background-color: #f9f9f9; /* Light background color */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      text-align: left; /* Align text to the left */
+  }
+  
+  #projects h2 {
+      font-size: 2em; /* Font size for the heading */
+      color: #333; /* Darker color for the heading */
+      margin-bottom: 20px;
+  }
+  
+  .project {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #fff; /* White background for each project */
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for each project */
+  }
+  
+  .project h3 {
+      font-size: 1.5em; /* Font size for project titles */
+      color: #333; /* Darker color for project titles */
+      margin-bottom: 10px;
+  }
+  
+  .project p {
+      font-size: 1.1em; /* Font size for project descriptions */
+      color: #666; /* Gray color for project descriptions */
+      margin-bottom: 10px;
+  }
+  
+  .project ul {
+      list-style: none; /* Remove bullet points */
+      padding: 0;
+  }
+  
+  .project ul li {
+      font-size: 1em; /* Font size for list items */
+      color: #666; /* Gray color for list items */
+      margin-bottom: 5px;
+  }
+  
+  .project a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #4caf50; /* Button background color */
+      color: white; /* Button text color */
+      text-decoration: none; /* Remove underline */
+      border-radius: 4px; /* Rounded corners for the button */
+  }
+  
+  .project a:hover {
+      background-color: #45a049; /* Darker green on hover */
+  }

@@ -1,21 +1,18 @@
 # Harsha88.github.io
 
 <h1>Personal Portfolio Website:</h1>
-<br>
 This repository contains the source code and files for my personal portfolio website.
 <br>
 The website is built using HTML, CSS, and JavaScript.
 <br>
 <br>
 <h1>Description:</h1>
-<br>
 A personal portfolio website showcasing my projects, skills, and experience.
 <br>
 It is built with HTML, CSS, and JavaScript.
 <br>
 <br>
 <h1>Features:</h1>
-<br>
 <h2>Home:</h2> Introduce myself and briefly overview my skills and interests.
 <br>
 <h2>About me:</h2> Details of my professional background, and education.
